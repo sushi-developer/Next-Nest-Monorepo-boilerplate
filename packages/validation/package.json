@@ -1,0 +1,19 @@
+{
+  "name": "@shared/validation",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./dist/index.js",
+    "./auth": "./dist/auth/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "typescript": "^5.7.2"
+  }
+}
